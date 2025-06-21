@@ -29,6 +29,26 @@ header {
     z-index: 99;
     padding: 0px 90px;
 }
+.topnav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+    z-index: 99;
+    padding: 0px 110px;
+}
+.topnav p{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 14px;
+}
+.topnav i{
+    color: white;
+}
 
 
 .navleft,
@@ -426,11 +446,25 @@ footer {
     line-height: 2;
 }
 
-.footer-col ul i {
+.footer-icon {
     font-size: 14px;
     color: black;
     margin-right: 10px;
 
+}
+.social-icon div{
+   
+    border-radius: 30px;
+    background-color: black;
+    padding: 4px 10px;
+    margin-right: 20px;
+}
+.social-icon i {
+    font-size: 15px;
+    color: white;
+}
+.social-icon i:hover{
+    color: goldenrod;
 }
 
 .centre {
@@ -440,6 +474,7 @@ footer {
     padding: 15px 0px;
     height: 60px;
 }
+
 
 
 
