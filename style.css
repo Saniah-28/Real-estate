@@ -93,7 +93,7 @@ header ul li a:hover {
     color: white;
 }
 .search1{
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     display: none;
@@ -474,6 +474,9 @@ footer {
         transition: right 0.2s linear;
         right: -100%;
         z-index: 1000;
+    }header ul li{
+        position: relative;
+        left: -20px;
     }
 
     header .menu {
