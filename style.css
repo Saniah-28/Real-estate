@@ -93,14 +93,15 @@ header ul li a:hover {
     color: white;
 }
 .search1{
-    width: 60%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
     display: none;
 }
 .search1 input{
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 40px;
+    padding: 10px 20px;
 }
 
 .search-form-wrapper {
@@ -495,19 +496,19 @@ footer {
     }
 
     .featured {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured2 {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .blog {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
 
@@ -535,15 +536,15 @@ footer {
     }
 
     .featured {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured2 {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services-row {
@@ -556,7 +557,7 @@ footer {
 
 
     .blog {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     footer {
@@ -597,19 +598,19 @@ footer {
     }
 
     .featured {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured2 {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .blog {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .footer-row {
@@ -694,15 +695,15 @@ footer {
     }
 
     .featured {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured2 {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .services-row {
@@ -714,7 +715,7 @@ footer {
     }
 
     .blog {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .footer-row {
@@ -779,19 +780,19 @@ footer {
     }
 
     .services {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .featured2 {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
     .blog {
-        padding: 40px 80px;
+        padding: 40px 40px;
     }
 
 
