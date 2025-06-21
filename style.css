@@ -181,8 +181,8 @@ header ul li a:hover {
     font-size: 14px;
 }
 
-.about-col video {
-    height: 100%;
+.about-col img {
+    border-radius: 30px;
 }
 
 .featured {
@@ -461,6 +461,9 @@ footer {
 
 
 @media (max-width:1200px) {
+    section{
+        overflow-x: hidden;
+    }
     header ul {
         position: fixed;
         top: 0px;
@@ -518,6 +521,9 @@ footer {
 }
 
 @media(max-width:990px) {
+    section{
+        overflow-x: hidden;
+    }
     .about-row {
         display: flex;
         flex-direction: column;
@@ -538,16 +544,20 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .featured {
-        padding: 40px 40px;
+     .featured {
+        padding: 40px 70px;
     }
 
     .featured2 {
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
 
     .services {
-        padding: 40px 40px;
+        padding: 40px 70px;
+    }
+
+    .blog {
+        padding: 40px 70px;
     }
 
     .services-row {
@@ -557,11 +567,7 @@ footer {
     .blog-row {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
-    .blog {
-        padding: 40px 40px;
-    }
+ 
 
     footer {
         padding: 10px 50px;
@@ -575,6 +581,9 @@ footer {
 }
 
 @media(max-width:850px) {
+    section{
+        overflow-x: hidden;
+    }
     .search {
         display: none;
     }
@@ -594,6 +603,7 @@ footer {
 
     .about-col {
         width: 100%;
+        padding: 50px;
     }
 
     .content {
@@ -601,19 +611,19 @@ footer {
     }
 
     .featured {
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
 
     .featured2 {
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
 
     .services {
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
 
     .blog {
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
 
     .footer-row {
@@ -688,6 +698,7 @@ footer {
     .about-col button {
         width: 43%;
     }
+    
 
     .content {
         margin-top: 22%;
